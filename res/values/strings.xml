@@ -3,5 +3,9 @@
 
     <string name="app_name">GerenciadorDePropriedade</string>
     <string name="hello_world">Hello world!</string>
+    <string name="usuario">Usuario</string>
+    <string name="senha">Senha</string>
+    <string name="manter_conectado">Manter Conectado</string>
+    <string name="logar">Logar</string>
 
 </resources>
