@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFAF0"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/app_name"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#EEE9E9">
+        
+        <TextView 
+            android:id="@+id/nova_propriedade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="80dp"
+            android:clickable="true"
+            android:drawableTop="@drawable/nova_propriedade"
+            android:onClick="selecionarOpcao"
+            android:text="@string/nova_propriedade"
+            android:textColor="#000000"
+            android:textStyle="bold"/>
+        
+        <TextView 
+            android:id="@+id/minhas_propriedades"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/nova_propriedade"
+            android:layout_marginRight="10dp"
+            android:clickable="true"
+            android:drawableTop="@drawable/minhas_propriedades"
+            android:onClick="selecionarOpcao"
+            android:text="@string/minhas_propriedades"
+            android:textColor="#000000"
+            android:textStyle="bold"/>
+        
+        <TextView
+            android:id="@+id/ajuda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/nova_propriedade"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="120dp"
+            android:clickable="true"
+            android:drawableTop="@drawable/ajuda"
+            android:onClick="selecionarOpcao"
+            android:text="@string/ajuda"
+            android:textColor="#000000"
+            android:textStyle="bold"/>
+        
+    </RelativeLayout>
+
+
+</LinearLayout>
