@@ -7,5 +7,14 @@
     <string name="senha">Senha</string>
     <string name="manter_conectado">Manter Conectado</string>
     <string name="logar">Logar</string>
+    <string name="erro_autenticacao">Senha ou Usuario inválidos</string>
+    <string name="title_activity_tela_menu">TelaMenu</string>
+    <string name="nova_propriedade">Nova Propriedade</string>
+    <string name="minhas_propriedades">Minhas Propriedades</string>
+    <string name="ajuda">Ajuda</string>
+    <string name="sair">Sair</string>
+    <string name="title_activity_nova_propriedade">NovaPropriedade</string>
+    <string name="title_activity_propriedade_list">PropriedadeList</string>
+    <string name="title_activity_ajuda">Ajuda</string>
 
 </resources>
