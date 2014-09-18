@@ -16,5 +16,22 @@
     <string name="title_activity_nova_propriedade">NovaPropriedade</string>
     <string name="title_activity_propriedade_list">PropriedadeList</string>
     <string name="title_activity_ajuda">Ajuda</string>
+    <string name="remover">Remover</string>
+    <string name="novo_animal">Novo animal</string>
+    <string name="remover_propriedade">Remover propriedade</string>
+    <string name="nome_propriedade">Nome da Propriedade</string>
+    <string name="lat_propriedade">Latitulde da Propriedade</string>
+    <string name="long_propriedade">Longitulde da Propriedade</string>
+    <string name="salvar">Salvar</string>
+    <string name="registro_salvo">Registro salvo com sucesso</string>
+    <string name="erro_salvar">Erro ao salvar</string>
+    <string name="title_activity_novo_animal">NovoAnimal</string>
+    <string name="editar">Editar</string>
+    <string name="listar_animal">Lista de animais</string>
+    <string name="opcoes">Opções</string>
+    <string name="title_activity_animal_list">AnimalList</string>
+    <string name="confirmacao_exclusao_propriedade">Deseja excluir essa propriedade</string>
+    <string name="sim">Sim</string>
+    <string name="nao">Não</string>
 
 </resources>

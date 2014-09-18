@@ -1,12 +1,54 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="${packageName}.${activityClass}" >
-
-    <TextView
-        android:layout_width="wrap_content"
+    android:layout_height="match_parent" >
+    
+    <TableLayout 
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:stretchColumns="0">
+        
+        <LinearLayout 
+            android:background="#FFDAB9"
+            android:orientation="vertical">
+            
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/nova_propriedade"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textStyle="bold"/>
+        </LinearLayout>
+        
+        <TextView 
+         	android:text="@string/nome_propriedade"/>
+        
+        <EditText
+           	android:id="@+id/nome_propriedade"
+           	android:inputType="text" />
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:text="@string/lat_propriedade"
+            android:layout_marginTop="20dp"/>
+        
+        <EditText 
+            android:id="@+id/lat_propriedade"
+            android:inputType="numberDecimal"/>
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:text="@string/long_propriedade"
+            android:layout_marginTop="20dp"/>
+        
+        <EditText 
+            android:id="@+id/long_propriedade"
+            android:inputType="numberDecimal"/>
+        
+        <Button 
+            android:onClick="salvarPropriedade"
+            android:text="@string/salvar"/>
+        
+    </TableLayout>
 
-</RelativeLayout>
+</ScrollView>

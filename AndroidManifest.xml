@@ -38,6 +38,14 @@
             android:name="com.studiod.gerenciadordepropriedade.Ajuda"
             android:label="@string/title_activity_ajuda" >
         </activity>
+        <activity
+            android:name="com.studiod.gerenciadordepropriedade.NovoAnimal"
+            android:label="@string/title_activity_novo_animal" >
+        </activity>
+        <activity
+            android:name="com.studiod.gerenciadordepropriedade.AnimalList"
+            android:label="@string/title_activity_animal_list" >
+        </activity>
     </application>
 
 </manifest>
